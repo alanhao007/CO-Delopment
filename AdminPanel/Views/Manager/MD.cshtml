@@ -1,0 +1,11 @@
+﻿@using AdminPanel.Models
+@model Managers
+
+
+    <div class="scroll_img">  
+        <img src="@Model.ManagerPicPath" alt="photo"></img>
+
+    </div>
+    <a href="@Url.ActionLink("Index", "Manager")"><h5 class="scroll_title">@Model.Name</h5></a>
+    <p class="scroll_text">@Model.Description</p>
+

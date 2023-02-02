@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\project\\CO-Delopment\\AdminPanel\\AdminPanel.csproj": {}
+    "E:\\проект 21.01 телега\\AdminPanel\\CO_Development.new\\AdminPanel\\AdminPanel.csproj": {}
   },
   "projects": {
-    "E:\\project\\CO-Delopment\\AdminPanel\\AdminPanel.csproj": {
+    "E:\\проект 21.01 телега\\AdminPanel\\CO_Development.new\\AdminPanel\\AdminPanel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\project\\CO-Delopment\\AdminPanel\\AdminPanel.csproj",
+        "projectUniqueName": "E:\\проект 21.01 телега\\AdminPanel\\CO_Development.new\\AdminPanel\\AdminPanel.csproj",
         "projectName": "AdminPanel",
-        "projectPath": "E:\\project\\CO-Delopment\\AdminPanel\\AdminPanel.csproj",
+        "projectPath": "E:\\проект 21.01 телега\\AdminPanel\\CO_Development.new\\AdminPanel\\AdminPanel.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "E:\\project\\CO-Delopment\\AdminPanel\\obj\\",
+        "outputPath": "E:\\проект 21.01 телега\\AdminPanel\\CO_Development.new\\AdminPanel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

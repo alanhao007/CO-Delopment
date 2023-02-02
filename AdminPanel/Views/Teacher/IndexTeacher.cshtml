@@ -1,7 +1,7 @@
-﻿@using AdminPanel.Models
+﻿
 @model List<Teachers>
 
-<a href="@Url.ActionLink("Create", "Teacher")"><button>добавить учителя</button></a>
+<a href="@Url.ActionLink("CreateTeacher", "Teacher")"><button>добавить новость</button></a>
     
         @foreach (var teachers in Model){
            <div class="container">               
@@ -12,8 +12,8 @@
                 <div class="scroll_wrapper">
                     <div class="scroll_item">
                         <div class="scroll_img">
-                            @foreach (var j in item.Pictures){<td><img rec="@pic.Path"></td>}
-                 
+                            <img src="@teachers.TeacherPicturePath" alt="photo">
+                            <p>@teachers.TeacherPicturePath</p>
                         </div>
                         <a href="@Url.ActionLink("TD", "Teacher", new {TeachersId = teachers.Id})"><h5 class="scroll_title">@teachers.Name</h5></a>
                         <p class="scroll_text">@teachers.Lessons</p>

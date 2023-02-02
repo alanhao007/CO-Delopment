@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rtjVyfQ3F4RbwApqMZQi6lOj1H9AvZGe+GlQmMBuEgo7g5hgLa4b58SfUQUXap0WmDlMFpGi5cqSAmLwl3pRhw==",
+  "dgSpecHash": "CBivBC2XummJZAF1pDRuVoQ7UI/CooTSkMJ1HPgGz7azxrt3BLMiqfFO4Ljdm0agDnWAeg22jQhlGgTeC54jpQ==",
   "success": true,
-  "projectFilePath": "E:\\project\\CO-Delopment\\AdminPanel\\AdminPanel.csproj",
+  "projectFilePath": "E:\\проект 21.01 телега\\AdminPanel\\CO_Development.new\\AdminPanel\\AdminPanel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\mailkit\\3.4.1\\mailkit.3.4.1.nupkg.sha512",

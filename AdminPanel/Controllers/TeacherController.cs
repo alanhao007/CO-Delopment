@@ -20,7 +20,7 @@ namespace AdminPanel.Controllers
 
         public IActionResult IndexTeacher()
         {
-            var listTeachers = TeacherService.GetAll() ;
+            var listTeachers = TeacherService.GetAll();
             return View(listTeachers);
         }
         //
@@ -31,24 +31,37 @@ namespace AdminPanel.Controllers
             return View(listTeachers);
         }
 
+        [HttpPost]
         public IActionResult DeleteTeacher([FromForm] Teachers teachers)
         {
             //Получить айди новости для удаления
             TeacherService.DeleteTeachers(teachers);
             return RedirectToAction("IndexTeacher");
         }
-        public IActionResult Edit([FromForm] Teachers teacher)
+
+        public IActionResult EditTeacher(int teacherId)
         {
-            TeacherService.Edit(teacher);
-            return RedirectToAction("Index");
+            //получить из сервиса 1 новость по айди
+            var OneTeacher = TeacherService.GetDetails(teacherId);
+            //передать во вьюшку
+            return View(OneTeacher);
         }
+
         [HttpPost]
-        public IActionResult CreateTeacher(string teacherName, string teacherLessons,int teacherworkExp,string Teacherdescription, IFormFile uploadedFile)
+        public IActionResult EditTeacher([FromForm] Teachers teachers)
+        {
+            TeacherService.Edit(teachers);
+            return RedirectToAction("IndexTeacher");
+        }
+
+    
+        [HttpPost]
+        public IActionResult CreateTeacher(string teacherName, string teacherLessons, int teacherworkExp, string Teacherdescription, IFormFile uploadedFile)
         {
             //создаем новость через экземпляр класса news
-            var teacher = new Teachers { Name = teacherName, Lessons = teacherLessons, WorkExp= teacherworkExp, Description= Teacherdescription };
+            var teacher = new Teachers { Name = teacherName, Lessons = teacherLessons, WorkExp = teacherworkExp, Description = Teacherdescription };
             var TeacherID = TeacherService.Create(teacher);
-      
+
             var fileName = Guid.NewGuid() + "." + (uploadedFile.FileName.Split('.').Last());
             //путь для хранени файла
             var path = "/img/" + fileName;
@@ -57,7 +70,7 @@ namespace AdminPanel.Controllers
                 //копируем изображения в папку wwrooot + path
                 uploadedFile.CopyTo(fileStream);
             }
-            Models.File pic = new Models.File() { Name = uploadedFile.FileName, FilePath = path, TeacherId = TeacherID };
+            FileTeach pic = new FileTeach() { Name = uploadedFile.FileName, FilePath = path, TeacherId = TeacherID };
             PicturesService.Create(pic);
             return RedirectToAction("IndexTeacher");
         }

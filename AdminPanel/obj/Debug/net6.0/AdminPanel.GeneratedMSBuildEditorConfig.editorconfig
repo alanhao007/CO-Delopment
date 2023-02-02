@@ -8,77 +8,93 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AdminPanel
 build_property.RootNamespace = AdminPanel
-build_property.ProjectDir = E:\project\CO-Delopment\AdminPanel\
+build_property.ProjectDir = E:\проект 21.01 телега\AdminPanel\CO_Development.new\AdminPanel\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\project\CO-Delopment\AdminPanel
+build_property.MSBuildProjectDirectory = E:\проект 21.01 телега\AdminPanel\CO_Development.new\AdminPanel
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/project/CO-Delopment/AdminPanel/Views/Account/Login.cshtml]
+[E:/проект 21.01 телега/AdminPanel/CO_Development.new/AdminPanel/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/project/CO-Delopment/AdminPanel/Views/Account/Register.cshtml]
+[E:/проект 21.01 телега/AdminPanel/CO_Development.new/AdminPanel/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/project/CO-Delopment/AdminPanel/Views/Calender/Index.cshtml]
+[E:/проект 21.01 телега/AdminPanel/CO_Development.new/AdminPanel/Views/Calender/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsZW5kZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/project/CO-Delopment/AdminPanel/Views/Home/Index.cshtml]
+[E:/проект 21.01 телега/AdminPanel/CO_Development.new/AdminPanel/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/project/CO-Delopment/AdminPanel/Views/Home/Privacy.cshtml]
+[E:/проект 21.01 телега/AdminPanel/CO_Development.new/AdminPanel/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/project/CO-Delopment/AdminPanel/Views/News/Create.cshtml]
+[E:/проект 21.01 телега/AdminPanel/CO_Development.new/AdminPanel/Views/Manager/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/проект 21.01 телега/AdminPanel/CO_Development.new/AdminPanel/Views/Manager/IndexManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxJbmRleE1hbmFnZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/проект 21.01 телега/AdminPanel/CO_Development.new/AdminPanel/Views/Manager/MD.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxNRC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/проект 21.01 телега/AdminPanel/CO_Development.new/AdminPanel/Views/News/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/project/CO-Delopment/AdminPanel/Views/News/Edit.cshtml]
+[E:/проект 21.01 телега/AdminPanel/CO_Development.new/AdminPanel/Views/News/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/project/CO-Delopment/AdminPanel/Views/News/Index.cshtml]
+[E:/проект 21.01 телега/AdminPanel/CO_Development.new/AdminPanel/Views/News/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/project/CO-Delopment/AdminPanel/Views/Pictures/PicturesEdit.cshtml]
+[E:/проект 21.01 телега/AdminPanel/CO_Development.new/AdminPanel/Views/Pictures/PicturesEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGljdHVyZXNcUGljdHVyZXNFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/project/CO-Delopment/AdminPanel/Views/Shared/Error.cshtml]
+[E:/проект 21.01 телега/AdminPanel/CO_Development.new/AdminPanel/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/project/CO-Delopment/AdminPanel/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/проект 21.01 телега/AdminPanel/CO_Development.new/AdminPanel/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/project/CO-Delopment/AdminPanel/Views/Teacher/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxDcmVhdGUuY3NodG1s
+[E:/проект 21.01 телега/AdminPanel/CO_Development.new/AdminPanel/Views/Teacher/CreateTeacher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxDcmVhdGVUZWFjaGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/project/CO-Delopment/AdminPanel/Views/Teacher/IndexTeacher.cshtml]
+[E:/проект 21.01 телега/AdminPanel/CO_Development.new/AdminPanel/Views/Teacher/EditTeacher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxFZGl0VGVhY2hlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/проект 21.01 телега/AdminPanel/CO_Development.new/AdminPanel/Views/Teacher/IndexTeacher.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxJbmRleFRlYWNoZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/project/CO-Delopment/AdminPanel/Views/Teacher/TD.cshtml]
+[E:/проект 21.01 телега/AdminPanel/CO_Development.new/AdminPanel/Views/Teacher/TD.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxURC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/project/CO-Delopment/AdminPanel/Views/_ViewImports.cshtml]
+[E:/проект 21.01 телега/AdminPanel/CO_Development.new/AdminPanel/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/project/CO-Delopment/AdminPanel/Views/_ViewStart.cshtml]
+[E:/проект 21.01 телега/AdminPanel/CO_Development.new/AdminPanel/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/project/CO-Delopment/AdminPanel/Views/Shared/_Layout.cshtml]
+[E:/проект 21.01 телега/AdminPanel/CO_Development.new/AdminPanel/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-cxfutip2kg

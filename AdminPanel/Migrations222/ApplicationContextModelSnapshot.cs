@@ -71,6 +71,9 @@ namespace AdminPanel.Migrations
                     b.Property<bool>("IsMain")
                         .HasColumnType("tinyint(1)");
 
+                    b.Property<int?>("ManagersId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .HasColumnType("longtext");
 
@@ -85,11 +88,33 @@ namespace AdminPanel.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ManagersId");
+
                     b.HasIndex("NewsId");
 
                     b.HasIndex("TeachersId");
 
                     b.ToTable("Pictures");
+                });
+
+            modelBuilder.Entity("AdminPanel.Models.Managers", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("ManagerPicPath")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Managers");
                 });
 
             modelBuilder.Entity("AdminPanel.Models.News", b =>
@@ -345,6 +370,10 @@ namespace AdminPanel.Migrations
 
             modelBuilder.Entity("AdminPanel.Models.File", b =>
                 {
+                    b.HasOne("AdminPanel.Models.Managers", null)
+                        .WithMany("ManagerPictures")
+                        .HasForeignKey("ManagersId");
+
                     b.HasOne("AdminPanel.Models.News", "News")
                         .WithMany("Pictures")
                         .HasForeignKey("NewsId")
@@ -414,6 +443,11 @@ namespace AdminPanel.Migrations
             modelBuilder.Entity("AdminPanel.Models.Calender", b =>
                 {
                     b.Navigation("Events");
+                });
+
+            modelBuilder.Entity("AdminPanel.Models.Managers", b =>
+                {
+                    b.Navigation("ManagerPictures");
                 });
 
             modelBuilder.Entity("AdminPanel.Models.News", b =>

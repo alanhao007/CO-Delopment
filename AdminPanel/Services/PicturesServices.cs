@@ -1,5 +1,6 @@
 ﻿using AdminPanel.Models;
 using Microsoft.EntityFrameworkCore;
+using File = AdminPanel.Models.File;
 
 namespace AdminPanel.Services
 {
@@ -24,6 +25,12 @@ namespace AdminPanel.Services
         {
             return db.Pictures.Where(x => x.Id == PicturesId).FirstOrDefault();
         }
+
+/*        internal void Delete(File pictures)
+        {
+            throw new NotImplementedException();
+        }*/
+
         public string? Create(Models.File pictures)
         {
             db.Pictures.Add(pictures);
@@ -62,6 +69,8 @@ namespace AdminPanel.Services
             db.Pictures.Remove(FullPicture);
             db.SaveChanges();
         }
+
+     #if и
         public int SetMain(int PictureId)
         {
 
