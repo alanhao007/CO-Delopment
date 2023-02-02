@@ -12,8 +12,8 @@
                 <div class="scroll_wrapper">
                     <div class="scroll_item">
                         <div class="scroll_img">
-                            <img src="@teachers.TeacherPicturePath" alt="photo">
-                            <p>@teachers.TeacherPicturePath</p>
+                            @foreach (var j in item.Pictures){<td><img rec="@pic.Path"></td>}
+                 
                         </div>
                         <a href="@Url.ActionLink("TD", "Teacher", new {TeachersId = teachers.Id})"><h5 class="scroll_title">@teachers.Name</h5></a>
                         <p class="scroll_text">@teachers.Lessons</p>
