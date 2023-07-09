@@ -1,0 +1,25 @@
+﻿@model List<Managers>
+
+@foreach (var managers in Model){
+ <div class="container">               
+    <form asp-controller="Manager" asp-action="DeleteManager" method="post">           
+    <input type="hidden" name="Id" value="@managers.Id" /> 
+    <input class="input_submit" type="submit" value="Уволить админа"> 
+    </form>
+ <div class="scroll_wrapper">
+    <div class="scroll_item">
+        <div class="scroll_img">
+            <img src="@managers.ManagerPicPath" alt="photo">
+            <p>@managers.ManagerPicPath</p>
+     </div>
+    <a href="@Url.ActionLink("MD", "Manager", new {ManagerId = managers.Id})"><h5 class="scroll_title">@managers.Name</h5></a>
+                       
+ </div> 
+ </div>
+ </div>
+}
+
+@*
+<a href="@Url.ActionLink("Create", "Manager")"><button>добавить админа</button></a>*@
+    
+

@@ -1,0 +1,18 @@
+﻿@using AdminPanel.Models
+@model Managers
+
+<table class="main_table" border="1">
+    <tr>
+        <th class="news-name">Имя админа</th>
+        <th class="news-description">Описание</th>
+        <th class="news-save"></th>
+    </tr>
+    <tr class="news">
+        @using (Html.BeginForm("EditManager"))
+        {
+            <input type="hidden" name="Id" value="@Model.Id" />
+            <td><input type="text" name="Name" value="@Model.Name"></td>
+            <td><textarea name="Description">@Model.Description</textarea></td>
+            <td><input class="input_submit" type="submit" value="Сохранить изменения"></td>
+        }
+    </tr>
